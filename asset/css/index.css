@@ -1,0 +1,233 @@
+
+body{
+    background-color: #a1d1c5;
+    margin-bottom: 0;
+}
+
+.blocContent{
+    margin:5% 5% 0 5%;
+    width: 90%;
+    height: 95%;
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 30px 30px #b4dad1;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    height: 10%;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 5% 80% 15% ;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.espaceLogin{
+    display: grid;
+    grid-template-columns: auto auto ;
+    text-align: center;
+    
+}
+
+.login{
+    font: 1em "Fira Sans", sans-serif;
+    font-weight: bold;
+    height: 50%;
+    margin-top: 41px;
+}
+
+.signUp{
+    color: #fff;
+    font: 1em "Fira Sans", sans-serif;
+    width: 75%;
+    height: 50%;
+    border-radius: 30px;
+    background-color: #000;
+    margin-top: 25px;
+}
+
+.signUp h5 {
+    margin: 0;
+    font-size: 0.95em;
+    margin-top: 16.5px;
+}
+
+.login h4 {
+    margin: 0;
+}
+
+.logoImage{
+    margin-top: 18px;
+    margin-left: 23px;
+    
+}
+
+
+.content{
+    margin-left: 5%;
+    margin-top: 100px;
+}
+
+
+/* 
+.class1 span {
+    font:3em;
+    font-family: monospace;
+} */
+
+@font-face {
+    font-family: 'publicasans-regular';
+    src: url('../webfont/publicasans-regular-webfont.woff2') format('woff2'),
+         url('../webfont/publicasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bigTitle p{
+    font-size: 4em;
+    font-weight:bold;
+    font-family: "publicasans-regular", sans-serif;
+    margin: 0;
+    z-index: 1;
+}
+
+.smallDescription{
+    color:#9b9ba0;
+    font-family: "publicasans-regular", sans-serif;
+    z-index: 1;
+}
+
+#SD1 {
+    margin-bottom: 0;
+}
+#SD2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.email{
+    margin-top: 20px;
+    
+}
+
+.email #mail {
+    height: 3em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #d5d5d7;
+    padding: 10px 30px;
+
+}
+
+.email #button {
+    height: 3em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #fff;
+    box-shadow: 0 0 #fff;
+    background-color: #ed6883;
+    color: #fff;
+    font-family: "publicasans-regular", sans-serif;
+    margin-left: 10px;
+    width: 65px;
+}
+
+
+
+
+
+label {
+    position: relative;
+  }
+  
+label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    background: url("../envelope.png") center / contain no-repeat;
+
+}
+
+
+.dance{
+    margin-top: 40px;
+    width: 400px;
+    height: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 35% 65%;
+}
+
+.textDance{
+    
+    font-family: "publicasans-regular", sans-serif;
+}
+.textVesta{
+    
+    font-family: "publicasans-regular", sans-serif;
+}
+
+.p1{
+    font-size: 1.35em;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.p2{
+    font-size: 0.9em;
+    margin: 0;
+    margin-top: 7px;
+    font-weight: normal;
+    color: #bdbdc0;
+}
+
+.p3{
+    font-size: 1.1em;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: normal;
+    color: #77b0bd;
+}
+
+
+
+.vesta{
+    margin-top: 40px;
+    width: 400px;
+    height: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 35% 65%;
+    
+}
+
+.img{
+    margin-top:15px ;
+    margin-left: 14px;
+}
+
+.imgCenter{
+    position: absolute;
+    z-index: 0;
+    right: 10%;
+    top: 20%;
+    width: 50%;
+    max-width: 900px;
+}
+@media (max-width:1000px){
+    .imgCenter{
+        width: 0;
+    }
+}
